@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .custom-header-button {
+        @apply p-2 border rounded-md bg-myGrey text-white mb-5 mt-3 hover:bg-slate-100 hover:text-brique2 transition-all duration-300 uppercase;
+    }
+
+    .custom-login-register {
+        @apply border h-8 w-full
+    }
+
+    .custom-validation-error {
+        @apply text-red-500 text-xs pt-1
+    }
+
+
+
+}

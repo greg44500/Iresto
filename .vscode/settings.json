@@ -1,0 +1,12 @@
+{
+  "eslint.debug": true,
+  "eslint.format.enable": true,
+  "eslint.nodePath": "",
+  "eslint.ignoreUntitled": true,
+  "eslint.onIgnoredFiles": "warn",
+  "eslint.useESLintClass": true,
+  "eslint.useFlatConfig": false,
+  "vs-code-prettier-eslint.prettierLast": true,
+  "eslint.runtime": "",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
