@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div className=" max-w-2xl mx-auto rounded-sm bg-slate-50/80 shadow-lg  flex items-center justify-center flex-col mt-10 ">
+    <div className=" max-w-2xl mx-auto custom-bg-container mt-10 ">
       <h1 className="font-[Poppins] font-semibold text-2xl mt-5 ">
         AUTHENTIFICATION
       </h1>

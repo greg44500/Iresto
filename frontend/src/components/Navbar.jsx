@@ -29,7 +29,7 @@ function Navbar() {
     }
   };
   return (
-    <div className="w-full h-16 bg-black text-white flex items-center justify-between px-1 shadow-lg">
+    <div className=" w-full h-16 bg-black text-white flex items-center justify-between px-1 shadow-lg">
       <p className="font-[Poppins] text-2xl text-brique2 tracking-wider font-semibold">
         MERCURIALE
       </p>

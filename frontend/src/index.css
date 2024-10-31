@@ -15,6 +15,10 @@
         @apply text-red-500 text-xs pt-1
     }
 
+    .custom-bg-container {
+        @apply rounded-sm backdrop-blur-sm bg-white/80 border-brique2 border shadow-lg flex items-center justify-center flex-col
+    }
+
 
 
 }

@@ -122,9 +122,7 @@ function Register() {
 
         {/* Champ mot de passe */}
         <div className="w-auto mb-3">
-          <label htmlFor="password" className="block text-gray-700">
-            Mot de passe :
-          </label>
+          <label htmlFor="password">Mot de passe :</label>
           <input
             type="password"
             id="password"
@@ -138,7 +136,7 @@ function Register() {
 
         {/* Champ Confirmation du mot de passe */}
         <div className="w-auto mb-3">
-          <label htmlFor="confirmPassword" className="block text-gray-700">
+          <label htmlFor="confirmPassword">
             Confirmation du mot de passe :
           </label>
           <input
