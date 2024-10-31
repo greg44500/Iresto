@@ -5,7 +5,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <div className="bg-background-image  bg-cover bg-center h-screen w-full">
+    <div className="bg-background-image bg-cover bg-center h-screen w-full">
       <Navbar />
       <ToastContainer />
       <div className="max-w-[1440px] mx-auto flex items-center justify-center h-screen -m-10">

@@ -30,7 +30,7 @@ const createProduct = asyncHandler(async (req, res) => {
 const getProducts = asyncHandler(async (req, res) => {
   try {
     // Récupérer tous les produits de la base de données
-    const products = await Product.find({});
+    const products = await Product.find().populate("author", "firstname");
 
     // Répondre avec les produits trouvés
     res.status(200).json(products);

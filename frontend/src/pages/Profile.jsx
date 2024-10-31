@@ -42,6 +42,7 @@ function Profile() {
         }).unwrap();
         dispatch(setCredentials({ ...res }));
         toast.success("Profil mis à jour !");
+        navigate("/landing");
       } catch (err) {
         toast.error(err?.data?.message || err.error);
       }

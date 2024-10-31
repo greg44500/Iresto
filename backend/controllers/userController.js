@@ -19,11 +19,13 @@ const authUser = asyncHandler(async (req, res) => {
       role: user.role,
       email: user.email,
     });
+    console.log(req.body);
   } else {
     res.status(401);
     throw new Error("Informations de connexion invalides");
   }
 });
+
 // @desc Register user
 // @route POST /api/users
 // @access Public
